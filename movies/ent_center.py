@@ -1,5 +1,7 @@
 import media
-import fresh_tomatoes
+  #created class data structure
+import fresh_tomatoes 
+  #generates html site, include show trailer function
 
 toy_story = media.Movie("Toy Story",
                          "A story of a boy and its toys that come to life",
@@ -31,4 +33,4 @@ suicide_squad = media.Movie("Suicide Squad",
 
 movies = [deadpool, assasins_creed, rogue_one, suicide_squad]
 fresh_tomatoes.open_movies_page(movies)
-#print(media.Movie.__name__)
+  #generates site
