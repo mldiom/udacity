@@ -29,6 +29,6 @@ suicide_squad = media.Movie("Suicide Squad",
 #print(toy_story.storyline)
 #deadpool.show_trailer()
 
-#movies = [deadpool, assasins_creed, rogue_one, suicide_squad]
-#fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.__name__)
+movies = [deadpool, assasins_creed, rogue_one, suicide_squad]
+fresh_tomatoes.open_movies_page(movies)
+#print(media.Movie.__name__)
