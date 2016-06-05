@@ -1,2 +1,15 @@
 This is an assignment from udacity
 a data structure established to view and navigate movie trailers
+a class called "movie" in a file called "media.py" was created and given several arguments
+ -title -storyline -poster image -youtube trailer
+ we also wrote a method for this class called "show_trailer" that would open a browser 
+ go to the youtube trailer argument 
+ 
+ 
+ a separate file was created and called "ent_center.py"
+ in this file we created several instances of the "Movie" class we created in the "media.py" file and entered their respective data
+ to match the classes arguments
+ we also created an array called "movies" containing the instances of the Movie class we created in the same file
+ we then called a function from the file "fresh_tomatoes" called open_movies_page and gived it the "movie" we created
+ this then created an html that displayed the intances of the Movie class we created and allowed us to see their trailers
+ 
